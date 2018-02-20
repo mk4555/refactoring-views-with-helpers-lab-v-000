@@ -8,4 +8,5 @@
 song = Song.create(title: "hi")
 artist = Artist.create(name: "Drake")
 song.artist = artist
+song.save
 song = Song.create(title: "hello")
